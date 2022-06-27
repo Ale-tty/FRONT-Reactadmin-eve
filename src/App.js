@@ -10,7 +10,7 @@ import WorksEdit from './components/WorksEdit'
 
 function App() {
   return (
-    <Admin dataProvider={eveDataProvider('https://crud-jinja2-fastapi.herokuapp.com/people/')}>
+    <Admin dataProvider={eveDataProvider('http://127.0.0.1:5000/')}>
         <Resource
           name='people'
           list={PeopleList}
